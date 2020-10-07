@@ -1,8 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
+# program reads in historical Canadian employment data and analyses
+# it primarily using detrending and frequency filtering
 
 # necessary imports and setup
 import numpy as np
@@ -227,16 +224,3 @@ plt.xticks([-4, -3, -2, -1, 0, 1, 2, 3, 4])
 plt.legend()
 plt.savefig('cc_f_2016.pdf')
 plt.show()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
